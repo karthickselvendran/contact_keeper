@@ -7,7 +7,7 @@ const AddContactCard = ({
   contactDetails = {},
   setContactDetails = {},
   addContactToList = {},
-  updateId = "",
+  updateId = ""
 }) => {
   const handleChange = async (e) => {
     e.preventDefault();
