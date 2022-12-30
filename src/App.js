@@ -81,6 +81,9 @@ function App() {
       <ToastContainer autoClose={2000} />
       <Header title="Contact Keeper" />
       <div className="container">
+        <p>
+          We can able to add name, email id, phone number, and contact type to the contact list, then we are able to update and delete those contacts.
+        </p>
         <div className="addContactCard">
           <AddContactCard
             contactDetails={contactDetails}

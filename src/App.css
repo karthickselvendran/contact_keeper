@@ -12,6 +12,12 @@
   gap: 3em;
 }
 
+p {
+  font-size: 1.3em;
+  text-align: center;
+  margin: 20px;
+}
+
 .mb10 {
   margin-bottom: 10px;
 }
