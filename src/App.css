@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.cardsList {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+
+.searchContainer {
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.searchInput {
+  max-width: 900px;
+  width: 40%;
+  min-width: 300px;
+  margin: 10px;
+  font-size: 1em;
+}
